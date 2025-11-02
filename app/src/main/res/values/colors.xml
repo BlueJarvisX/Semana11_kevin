@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="cafe_claro">#D7CCC8</color>
+    <color name="cafe_oscuro">#815F4C</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="background">#E2DFDB</color>
+    <color name="cafe_medio">#F0E1CD</color>
+    <color name="gray">#FF757575</color>
+    <color name="light_gray">#FFE0E0E0</color>
+    <color name="gold">#FFFFD700</color>
+    <color name="blue">#FF2196F3</color>
+    <color name="gold_light">#10FFD700</color>
+    <color name="gold_border">#30FFD700</color>
+</resources>

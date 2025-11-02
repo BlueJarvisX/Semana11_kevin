@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">PasaporteCafeOvalle</string>
+    <string name="user_name">Kevin Araya</string>
+    <string name="user_email">kevinnotfound23@gmail.com</string>
+    <string name="gold_member">Gold Member</string>
+    <string name="total_orders">47</string>
+    <string name="total_orders_label">Canjes totales</string>
+    <string name="points">1,250</string>
+    <string name="points_label">Puntos acumulados</string>
+    <string name="current_level">Gold</string>
+    <string name="current_level_label">Nivel actual</string>
+    <string name="account_section">Cuenta</string>
+    <string name="edit_profile">Editar perfil</string>
+    <string name="edit_profile_desc">Actualiza tu información personal</string>
+    <string name="favorites">Favoritos</string>
+    <string name="favorites_desc">Tus productos preferidos</string>
+    <string name="order_history">Historial de pedidos</string>
+    <string name="order_history_desc">Revisa tus compras anteriores</string>
+    <string name="home">Inicio</string>
+    <string name="products">Productos</string>
+    <string name="profile">Perfil</string>
+    <string name="scanner">Scannear QR</string>
+    <string name="scanner_desc">Registra tu visita para obtener beneficios</string>
+    <string name="hint_apertura">Apertura</string>
+    <string name="hint_cierre">Cierre</string>
+
+    <string-array name="estado_sucursal">
+        <item>Operativa</item>
+        <item>Deshabilitada</item>
+        <item>En Mantenimiento</item>
+    </string-array>
+
+    <string-array name="estado_cliente">
+        <item>Activo</item>
+        <item>Desactivado</item>
+    </string-array>
+</resources>

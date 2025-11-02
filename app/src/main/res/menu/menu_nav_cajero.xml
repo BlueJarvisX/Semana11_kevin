@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_registrar_qr"
+        android:icon="@drawable/admin"
+        android:title="Registrar Visita"
+        />
+    <item
+        android:id="@+id/nav_registrar_clientes"
+        android:icon="@drawable/gestion"
+        android:title="Clientes"
+        />
+
+</menu>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingStart="8dp">
+
+            <TextView
+                android:id="@+id/tvNombreCliente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo"
+                android:textColor="@color/cafe_oscuro"
+                android:text="Cliente X"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvEmailCliente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="email@gmail.com"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvTelefonoCliente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9 1231 1231"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvFechaNacCliente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2005-12-23"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvEstadoCliente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Activo"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvCreadoEnCliente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2025-02-09"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/btnEditar"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/editar"
+            android:contentDescription="Editar"
+            android:visibility="visible"
+            />
+
+        <ImageButton
+            android:id="@+id/btnHabilitar"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/habilitar"
+            android:contentDescription="Habilitar"
+            android:visibility="visible"
+            />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

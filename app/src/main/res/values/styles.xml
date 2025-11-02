@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--estilo para los botones-->
+    <style name="CoffeeButton">
+        <item name="android:backgroundTint">@color/cafe_oscuro</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">@font/baloo</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="CardView">
+        <item name="android:backgroundTint">@color/cafe_claro</item>
+        <item name="android:fontFamily">@font/baloo</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/cafe_oscuro</item>
+    </style>
+
+</resources>
